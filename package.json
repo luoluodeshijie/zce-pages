@@ -1,0 +1,35 @@
+{
+  "name": "zce-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "zce-pages",
+    "zce"
+  ],
+  "repository": "luoluo/zce-pages",
+  "license": "MIT",
+  "author": " <limingxianweb@163.com> (https://luoluodeshijie/zce-pages)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
