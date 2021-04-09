@@ -1,6 +1,6 @@
 {
-    "name": "zce-pages",
-    "version": "0.1.0",
+    "name": "luo-pages",
+    "version": "0.1.2",
     "description": "static web app workflow",
     "keywords": [
         "zce-pages",
@@ -44,19 +44,6 @@
     },
     "devDependencies": {
         "standard": "16.0.3"
-    },
-    "babel": {
-        "plugins": [
-            [
-                "@babel/plugin-proposal-decorators",
-                {
-                    "legacy": true
-                }
-            ]
-        ],
-        "presets": [
-            "react-app"
-        ]
     },
     "engines": {
         "node": ">=10"
